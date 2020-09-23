@@ -5,7 +5,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="services.css">
+        <link rel="stylesheet" href="contactus.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
     <body>
@@ -22,16 +22,27 @@
               <li><a href="aboutus.html">About Us</a></li>
             </ul>
           </nav><br><br><br><br><br>
-          <div class="responsive-iframe">
-             <a href="railandbus.html" target="ch_iframe"><i class="fa fa-train fa-2x" aria-hidden="true"></i></a>  <a href="cabservices.html" target="ch_iframe"><i class="fa fa-taxi fa-2x" aria-hidden="true"></i></a>  <a href="flighttickets.html" target="ch_iframe"><i class="fa fa-plane fa-2x" aria-hidden="true"></i><a>  <a href="villaandapartment.html" target="ch_iframe"><i class="fa fa-building fa-2x" aria-hidden="true"></i></a>
-           <br>
-           <br>
-           <br>
-           
-        </div>
 
-       <iframe src="flighttickets.html" name="ch_iframe" frameborder="2px" margin-left="200px" width="100%" height="350px"></iframe>
-
-       <div class="box">
-         Travel to your dream place at affordable price
-       </div>
+          <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname"><i>First Name</i></label>
+              <input type="text" id="fname" name="firstname" placeholder="">
+          
+              <label for="lname"><i>Last Name</i></label>
+              <input type="text" id="lname" name="lastname" placeholder="">
+          
+              <label for="country"><i>Country</i></label>
+              <input type="text" id="cname" name="country" placeholder="">
+          
+              <label for="subject"><i>Subject</i></label>
+              <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+      
+  </body>
+</html>
+      
